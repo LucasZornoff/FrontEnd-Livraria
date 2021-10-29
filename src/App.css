@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.pagina-principal {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://cdn.falauniversidades.com.br/wp-content/uploads/2021/03/01153807/Livraria-Jaqueira.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan {
+  border-left: 10px solid #000000;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin: 30px;
+  width: 1000px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.794);
+}
+
+.conteudo :hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.conteudo{
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.subtitulo {
+  position: absolute;
+  right: 30%;
+  bottom: 30%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(235, 184, 184, 0.794);
+  font-size: 36px;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-image: url('https://blog.facens.br/wp-content/uploads/2021/04/bibliotecas.png');
+  background-size: cover;
+}
+.row :hover{
+  background-color: #ffffff;
+}
+
+.card {
+  border-left: 10px solid #000000;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin: 30px;
+  width: 400px;
+  height: 300px;
+  transition: all 0.3s ease-out;
+  background-color: #ecececbb;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-image: url('http://www.fieb.org.br/Adm/Pagina/Pagina/4e2a08c9b792186dad6cda7dd42e22f9_x2c3d31af01bc4fddbc964153c17db4f4_03112016151843_.jpg'); 
+  background-size: cover;
+}
+
+.card2 {
+  border-left: 10px solid #000000;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  margin: 30px;
+  width: 800px;
+  height: 650px;
+  transition: all 0.3s ease-out;
+  background-color: #ecececbb;
+}
+
+.botaocafeteria {
+  text-decoration: none;
+  padding: 40px;
+  background-color: rgba(197, 131, 44, 0.829);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 40px;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 0 350px
+}
+
+.botaocafeteria:hover{
+  background-color: rgb(197, 131, 44);
+}
+
+.row3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-image: url('https://img.itdg.com.br/tdg/images/blog/uploads/2017/05/shutterstock_529515136.jpg'); 
+  background-size: cover;
+}
+
